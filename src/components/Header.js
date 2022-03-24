@@ -1,3 +1,4 @@
+import '../styles/Header.css';
 import Container from './Container';
 import Scores from './Scores';
 
