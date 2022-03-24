@@ -1,3 +1,5 @@
+import '../styles/Scores.css';
+
 const Scores = () => {
   return (
     <div className='scores'>
