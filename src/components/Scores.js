@@ -1,10 +1,10 @@
 import '../styles/Scores.css';
 
-const Scores = () => {
+const Scores = (props) => {
   return (
     <div className='scores'>
-      <p>Score: 0</p>
-      <p>Highscore: 0</p>
+      <p>Score: {props.score}</p>
+      <p>Highscore: {props.highscore}</p>
     </div>
   );
 };
