@@ -10,7 +10,15 @@ const Main = (props) => {
       </div>
       <div className='game'>
         {images.map((image) => {
-          return <Card img={image.img} alt={image.alt} key={image.id} />;
+          return (
+            <Card
+              key={image.id}
+              img={image.img}
+              alt={image.alt}
+              clickImage={props.clickImage}
+              id={image.id}
+            />
+          );
         })}
       </div>
     </main>

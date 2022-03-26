@@ -7,6 +7,7 @@ import easyLevelImages from './levels/easy';
 function App() {
   const [score, setScore] = useState(0);
   const [highscore, setHighscore] = useState(0);
+  const [clickedImages, setClickedImages] = useState([]);
 
   // functions for manipulating score
   function clickImage(id) {
@@ -34,7 +35,7 @@ function App() {
   return (
     <>
       <Header score={score} highscore={highscore} />
-      <Main level={levels[0]} />
+      <Main level={levels[0]} clickImage={clickImage} />
     </>
   );
 }
