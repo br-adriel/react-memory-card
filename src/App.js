@@ -9,11 +9,19 @@ function App() {
   const [highscore, setHighscore] = useState(0);
 
   // functions for manipulating score
-  const addScore = () => setScore(score + 1);
-  const clearScore = () => setScore(0);
-
-  // function for manipulating highscore
-  const newHighscore = () => setHighscore(score);
+  function clickImage(id) {
+    console.log(id);
+    if (clickedImages.includes(id)) {
+      setClickedImages([]);
+      if (score > highscore) {
+        setHighscore(score);
+      }
+      setScore(0);
+    } else {
+      setClickedImages([...clickedImages, id]);
+      setScore(score + 1);
+    }
+  }
 
   // niveis
   const levels = [
