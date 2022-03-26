@@ -1,0 +1,34 @@
+main {
+  width: min(1280px, 100%);
+  display: flex;
+  flex-direction: column;
+  padding: 0 16px;
+}
+
+main .level {
+  margin-bottom: 16px;
+}
+
+main .game {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@media screen and (min-width: 600px) {
+  main .game {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 900px) {
+  main .game {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  main .game {
+    grid-template-columns: repeat(5, 1fr);
+  }
+}

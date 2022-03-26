@@ -1,3 +1,6 @@
+import Card from './Card';
+import '../styles/Main.css';
+
 const Main = (props) => {
   return (
     <main>
