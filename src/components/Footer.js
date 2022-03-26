@@ -15,6 +15,7 @@ const Footer = () => {
                 href='https://www.github.com/br-adriel'
                 target='_blank'
                 rel='noopener noreferrer'
+                title='Github'
               >
                 <Github size={22} />
               </a>
@@ -22,6 +23,7 @@ const Footer = () => {
                 href='https://www.linkedin.com/in/adriel-fsantos'
                 target='_blank'
                 rel='noopener noreferrer'
+                title='LinkedIn'
               >
                 <Linkedin size={22} />
               </a>
