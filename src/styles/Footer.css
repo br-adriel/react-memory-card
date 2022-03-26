@@ -1,0 +1,51 @@
+footer {
+  width: 100%;
+  background: var(--primary-bg);
+  color: var(--primary-color);
+  padding: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: auto;
+}
+
+footer a {
+  color: var(--primary-color);
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+footer a:hover {
+  opacity: 1;
+}
+
+footer .container {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+footer .container > div {
+  justify-self: center;
+}
+
+footer .links p {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+footer .links span {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+footer .resources a {
+  text-decoration: underline;
+}
+
+@media screen and (min-width: 900px) {
+  footer .container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
