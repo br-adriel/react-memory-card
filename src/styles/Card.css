@@ -1,0 +1,23 @@
+.card {
+  box-shadow: none;
+  position: relative;
+  top: 0;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+
+.card:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  position: relative;
+  top: -8px;
+}
+
+.card img {
+  width: auto;
+  height: 100%;
+}
+
+.card,
+.card img {
+  border-radius: 4px;
+}
