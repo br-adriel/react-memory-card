@@ -20,7 +20,7 @@ function App() {
       }
       setScore(0);
     } else {
-      setClickedImages([...clickedImages, id]);
+      setClickedImages((prevState) => [...prevState, id]);
       setScore(score + 1);
     }
   }
