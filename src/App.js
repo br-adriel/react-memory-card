@@ -1,7 +1,8 @@
 import Header from './components/Header';
+import Main from './components/Main';
+import Footer from './components/Footer';
 import './App.css';
 import { useState } from 'react';
-import Main from './components/Main';
 import easyLevelImages from './levels/easy';
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
     <>
       <Header score={score} highscore={highscore} />
       <Main level={levels[0]} clickImage={clickImage} />
+      <Footer />
     </>
   );
 }
