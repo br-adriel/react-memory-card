@@ -4,6 +4,7 @@ import Footer from './components/Footer';
 import './App.css';
 import { useState } from 'react';
 import easyLevelImages from './levels/easy';
+import mediumLevelImages from './levels/medium';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -30,6 +31,10 @@ function App() {
     {
       name: 'Easy',
       images: easyLevelImages,
+    },
+    {
+      name: 'Medium',
+      images: mediumLevelImages,
     },
   ];
 
