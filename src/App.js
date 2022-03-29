@@ -6,6 +6,7 @@ import { useState } from 'react';
 import easyLevelImages from './levels/easy';
 import mediumLevelImages from './levels/medium';
 import hardLevelImages from './levels/hard';
+import impossibleLevelImages from './levels/impossible';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -31,6 +32,10 @@ function App() {
           setLevelIndex(1);
         } else if (prevScore === 20) {
           setLevelIndex(2);
+        } else if (prevScore === 45) {
+          setLevelIndex(3);
+        } else if (prevScore === 55) {
+          setLevelIndex(0);
         }
         // increments score
         return prevScore + 1;
@@ -51,6 +56,10 @@ function App() {
     {
       name: 'Hard',
       images: hardLevelImages,
+    },
+    {
+      name: 'Impossible',
+      images: impossibleLevelImages,
     },
   ];
 
