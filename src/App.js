@@ -13,6 +13,7 @@ function App() {
   const [levelIndex, setLevelIndex] = useState(0);
 
   function clickImage(id) {
+    // checks if image was clicked before
     if (clickedImages.includes(id)) {
       setClickedImages([]);
       if (score > highscore) {
@@ -22,12 +23,15 @@ function App() {
       setLevelIndex(0);
     } else {
       setClickedImages((prevState) => [...prevState, id]);
+
       setScore((prevScore) => {
+        // checks if should change level
         if (prevScore === 7) {
           setLevelIndex(1);
         } else if (prevScore === 20) {
           setLevelIndex(2);
         }
+        // increments score
         return prevScore + 1;
       });
     }
