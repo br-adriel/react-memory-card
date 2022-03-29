@@ -5,6 +5,7 @@ import './App.css';
 import { useState } from 'react';
 import easyLevelImages from './levels/easy';
 import mediumLevelImages from './levels/medium';
+import hardLevelImages from './levels/hard';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -46,6 +47,10 @@ function App() {
     {
       name: 'Medium',
       images: mediumLevelImages,
+    },
+    {
+      name: 'Hard',
+      images: hardLevelImages,
     },
   ];
 
