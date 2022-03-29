@@ -10,19 +10,26 @@ function App() {
   const [score, setScore] = useState(0);
   const [highscore, setHighscore] = useState(0);
   const [clickedImages, setClickedImages] = useState([]);
+  const [levelIndex, setLevelIndex] = useState(0);
 
-  // functions for manipulating score
   function clickImage(id) {
-    console.log(id);
     if (clickedImages.includes(id)) {
       setClickedImages([]);
       if (score > highscore) {
         setHighscore(score);
       }
       setScore(0);
+      setLevelIndex(0);
     } else {
       setClickedImages((prevState) => [...prevState, id]);
-      setScore(score + 1);
+      setScore((prevScore) => {
+        if (prevScore === 7) {
+          setLevelIndex(1);
+        } else if (prevScore === 20) {
+          setLevelIndex(2);
+        }
+        return prevScore + 1;
+      });
     }
   }
 
@@ -41,7 +48,7 @@ function App() {
   return (
     <>
       <Header score={score} highscore={highscore} />
-      <Main level={levels[0]} clickImage={clickImage} />
+      <Main level={levels[levelIndex]} clickImage={clickImage} />
       <Footer />
     </>
   );
