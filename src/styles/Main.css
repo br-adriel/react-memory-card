@@ -5,7 +5,8 @@ main {
   padding: 0 16px;
 }
 
-main .level {
+main .dialog {
+  font-size: 1.1rem;
   margin-bottom: 16px;
 }
 
