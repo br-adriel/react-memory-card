@@ -8,6 +8,9 @@ const Main = (props) => {
       <div className='level'>
         <h2>Level: {props.level.name}</h2>
       </div>
+      <div className='dialog'>
+        <p>{props.message}</p>
+      </div>
       <div className='game'>
         {images.map((image) => {
           return (
