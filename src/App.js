@@ -16,10 +16,10 @@ function App() {
 
   const dialogMessages = [
     'Oh, you lost, huh? Better luck next try!',
-    "Okay, the game is easy, just don't click on the same movie twice. Let's start easy: Spider-Man!",
-    "Hum, I see, not bad, let's get more serious now: X-MEN.",
-    "Okay, okay, that's good, I admit, now try these:",
-    "Okay, you might actually have a great memory. Here's my final challenge: I added more posters, find them! But be careful, all the other ones from past levels are here too.",
+    'Okay, the game is easy, just don\'t click on the same movie twice. Let\'s start with Spider-Man!',
+    'Hum, I see, not bad, let\'s get more serious now: X-MEN.',
+    'Okay, okay, that\'s good, I admit, now try these:',
+    'Okay, you might actually have a great memory. Here\'s my final challenge: I added more posters, find them! But be careful, all the other ones from past levels are here too.',
     'Congratulations, you have completed the challenge!',
   ];
 
@@ -52,6 +52,9 @@ function App() {
         } else if (prevScore === 55) {
           setLevelIndex(0);
           setDialogMessage(dialogMessages[5]);
+          setHighscore(prevScore+1);
+          setClickedImages([]);
+          return 0;
         }
         // increments score
         return prevScore + 1;
