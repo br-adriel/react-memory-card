@@ -1,8 +1,10 @@
 # Memory cards :joystick:
 
-Jogo da memória desenvolvido em javascript utilizando React.
+Jogo da memória com a temática Marvel desenvolvido em javascript utilizando React.
 
-Esse site foi constuída durante uma lição do [The Odin Project](https://www.theodinproject.com/).
+O site está em inglês, mas as regras do jogo são bem simples: apenas não clique no mesmo poster mais de uma vez.
+
+Esse site foi constuído durante uma lição do [The Odin Project](https://www.theodinproject.com/).
 
 Você pode ver como ficou o resultado clicando [aqui](https://br-adriel.github.io/react-memory-cards/).
 
