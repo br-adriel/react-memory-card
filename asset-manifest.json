@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/react-memory-cards/static/css/main.161e8ef3.css",
+    "main.css": "/react-memory-cards/static/css/main.03cef4e8.css",
     "main.js": "/react-memory-cards/static/js/main.f67c0a13.js",
     "static/media/1.jpg": "/react-memory-cards/static/media/1.eefd240b4c7c4390a82a.jpg",
     "static/media/5.jpg": "/react-memory-cards/static/media/5.1caed4e1d2f999fc3b91.jpg",
@@ -28,11 +28,11 @@
     "static/media/18.jpg": "/react-memory-cards/static/media/18.3d2867c2d19da83cca18.jpg",
     "static/media/24.jpg": "/react-memory-cards/static/media/24.0fd36596083bb2030f6d.jpg",
     "index.html": "/react-memory-cards/index.html",
-    "main.161e8ef3.css.map": "/react-memory-cards/static/css/main.161e8ef3.css.map",
+    "main.03cef4e8.css.map": "/react-memory-cards/static/css/main.03cef4e8.css.map",
     "main.f67c0a13.js.map": "/react-memory-cards/static/js/main.f67c0a13.js.map"
   },
   "entrypoints": [
-    "static/css/main.161e8ef3.css",
+    "static/css/main.03cef4e8.css",
     "static/js/main.f67c0a13.js"
   ]
 }
