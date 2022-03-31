@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/react-memory-cards/static/css/main.161e8ef3.css",
+    "main.js": "/react-memory-cards/static/js/main.2dcdfbc0.js",
+    "static/media/1.jpg": "/react-memory-cards/static/media/1.eefd240b4c7c4390a82a.jpg",
+    "static/media/5.jpg": "/react-memory-cards/static/media/5.1caed4e1d2f999fc3b91.jpg",
+    "static/media/8.jpg": "/react-memory-cards/static/media/8.16396437893a9e8c524c.jpg",
+    "static/media/23.jpg": "/react-memory-cards/static/media/23.0ba6561be2e0f70628e3.jpg",
+    "static/media/17.jpg": "/react-memory-cards/static/media/17.bd04bbdc013dec9d490a.jpg",
+    "static/media/6.jpg": "/react-memory-cards/static/media/6.0098540a83be6a1e164f.jpg",
+    "static/media/0.jpg": "/react-memory-cards/static/media/0.12265436de48d67b19b7.jpg",
+    "static/media/7.jpg": "/react-memory-cards/static/media/7.d92b88490fc528d7545d.jpg",
+    "static/media/21.jpg": "/react-memory-cards/static/media/21.ccabf6287f2696831904.jpg",
+    "static/media/3.jpg": "/react-memory-cards/static/media/3.966ce55866406274c5f4.jpg",
+    "static/media/15.jpg": "/react-memory-cards/static/media/15.e42b4f13462a88a5bbbb.jpg",
+    "static/media/12.jpg": "/react-memory-cards/static/media/12.e1b539c7b1dd6cc4bbcb.jpg",
+    "static/media/2.jpg": "/react-memory-cards/static/media/2.19e475ef0b5627a32f4b.jpg",
+    "static/media/16.jpg": "/react-memory-cards/static/media/16.20ab0df2abb655025745.jpg",
+    "static/media/4.jpg": "/react-memory-cards/static/media/4.01cce63901a75efce934.jpg",
+    "static/media/11.jpg": "/react-memory-cards/static/media/11.794b30970adf0a15e53d.jpg",
+    "static/media/14.jpg": "/react-memory-cards/static/media/14.901116fd51ca1d7b5da9.jpg",
+    "static/media/9.jpg": "/react-memory-cards/static/media/9.d2a43f154bccb6e9e2d7.jpg",
+    "static/media/19.jpg": "/react-memory-cards/static/media/19.e5e68dd143baec5b7f54.jpg",
+    "static/media/13.jpg": "/react-memory-cards/static/media/13.8862f522b7bc7be2bf97.jpg",
+    "static/media/22.jpg": "/react-memory-cards/static/media/22.5a20254b2326b3550c63.jpg",
+    "static/media/10.jpg": "/react-memory-cards/static/media/10.77525f3216483c1878d6.jpg",
+    "static/media/20.jpg": "/react-memory-cards/static/media/20.834f3ca28fa7b149d764.jpg",
+    "static/media/18.jpg": "/react-memory-cards/static/media/18.3d2867c2d19da83cca18.jpg",
+    "static/media/24.jpg": "/react-memory-cards/static/media/24.0fd36596083bb2030f6d.jpg",
+    "index.html": "/react-memory-cards/index.html",
+    "main.161e8ef3.css.map": "/react-memory-cards/static/css/main.161e8ef3.css.map",
+    "main.2dcdfbc0.js.map": "/react-memory-cards/static/js/main.2dcdfbc0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.161e8ef3.css",
+    "static/js/main.2dcdfbc0.js"
+  ]
+}
